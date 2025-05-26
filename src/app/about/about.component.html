@@ -1,0 +1,37 @@
+<style>
+ .about-main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+ }
+ .panel {
+    width: 70%;
+    padding: 13px;
+ }
+ .side {
+    width: 30%;
+    padding: 13px;
+ }
+</style>        
+<div class="about-main">
+    <div class="side">
+        <img [src]="imgPath" alt="cv-img" style="width: 70px;"/>
+
+        <p>
+            Marko Mandli
+            30.9.1970
+            Raikukuja 1 B 25
+            01620 Vantaa	
+            040 777 5290
+            mandlimarko&#64;gmail.com
+
+        </p>
+    </div>
+    <div class="panel">
+        <p>{{aboutMe}}!</p>
+    </div>
+        
+    
+ 
+</div>
+
